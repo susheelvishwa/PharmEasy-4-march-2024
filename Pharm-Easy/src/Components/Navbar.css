@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+#Main-container {
+    display: flex;
+    width: 100wh;
+    height: 64px;
+    border: 1px solid rgb(224, 224, 224);
+    justify-content: space-around;
+    padding-top: 15px;
+    background-color: white;
+}
+.Main-containerr{
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+}
+#Main-container>div {
+    font-weight: bolder;
+    background-color: white;
+}
+
+#Main-container {
+    justify-content: space-between;
+    padding: 20px 30px 10px 30px;
+}
+
+.TataLogo {
+    width: 120px;
+    height: 30px;
+    margin-top: -5px;
+}
+
+.download {
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.download:hover {
+    background-color: rgb(220, 228, 241);
+}
+
+.right,
+.left {
+    display: flex;
+    gap: 50px;
+}
+
+.consult {
+    color: black;
+    margin-bottom: 30px;
+}
+.download{
+    color: black;
+    border: 1px solid teal;
+}
+.cart_icon {
+    width: 59px;
+    height: 60px;
+}
+
+.labtest:hover,
+.cancer_care:hover,
+.aayurveda:hover,
+.care-plan:hover {
+    color: red;
+}
+
+
+#secound_nav {
+    display: flex;
+    border: 1px solid rgb(224, 224, 224);
+    height: 40px;
+    padding: 9px 300px 0 300px;
+    justify-content: space-around;
+    background-color: white;
+    font-size: small;
+    background-color: rgb(69, 170, 170);
+}
+
+.Medicine:hover {
+    color: rgb(0, 128, 128);
+}
+
+.Lab:hover {
+    color: rgb(0, 128, 128);
+}
+
+.Personal:hover {
+    color: rgb(0, 128, 128);
+}
+
+.Health:hover {
+    color: rgb(0, 128, 128);
+}
+
+.PLUS:hover {
+    color: rgb(0, 128, 128);
+}
+
+.Offers:hover {
+    color:rgb(0, 128, 128);
+}
+
+.Value:hover {
+    color:rgb(0, 128, 128);
+}
+
+.select_1 {
+    border: none;
+}

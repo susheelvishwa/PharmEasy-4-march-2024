@@ -1,0 +1,110 @@
+{
+  "medicines": [
+    {
+      "id": "1",
+      "name": "Paracetamol",
+      "brand": "Crocin",
+      "dosage_form": "Tablet",
+      "strength": "500mg",
+      "price": 10.99,
+      "stock_quantity": 100
+    },
+    {
+      "id": "2",
+      "name": "Ibuprofen",
+      "brand": "Advil",
+      "dosage_form": "Capsule",
+      "strength": "200mg",
+      "price": 15.49,
+      "stock_quantity": 50
+    },
+    {
+      "id": "3",
+      "name": "Loratadine",
+      "brand": "Claritin",
+      "dosage_form": "Tablet",
+      "strength": "10mg",
+      "price": 25.99,
+      "stock_quantity": 75
+    },
+    {
+      "id": "4",
+      "name": "Omeprazole",
+      "brand": "Prilosec",
+      "dosage_form": "Capsule",
+      "strength": "20mg",
+      "price": 18.75,
+      "stock_quantity": 30
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "user1",
+      "email": "user1@example.com",
+      "password": "password123",
+      "address": "123 Main St, City, Country",
+      "phone": "123-456-7890",
+      "catalog_id": 1
+    },
+    {
+      "id": "2",
+      "username": "user2",
+      "email": "user2@example.com",
+      "password": "password456",
+      "address": "456 Elm St, City, Country",
+      "phone": "456-789-0123",
+      "catalog_id": 2
+    },
+    {
+      "id": "cbbc",
+      "email": "susheelvishwakarma.india@gmail.com",
+      "password": "Susheel@123"
+    },
+    {
+      "id": "1924",
+      "email": "Anklesh@gmail.com",
+      "password": "babu@123"
+    },
+    {
+      "id": "b461",
+      "email": "Abhay@123",
+      "password": "Abhay@123"
+    },
+    {
+      "id": "6ddc",
+      "email": "Hemant@gmail.com",
+      "password": "Hemant@123"
+    }
+  ],
+  "catalogs": [
+    {
+      "id": "1",
+      "user_id": 1,
+      "items": [
+        {
+          "medicine_id": 1,
+          "quantity": 2
+        },
+        {
+          "medicine_id": 3,
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "user_id": 2,
+      "items": [
+        {
+          "medicine_id": 2,
+          "quantity": 3
+        },
+        {
+          "medicine_id": 4,
+          "quantity": 2
+        }
+      ]
+    }
+  ]
+}
