@@ -75,6 +75,16 @@
       "id": "6ddc",
       "email": "Hemant@gmail.com",
       "password": "Hemant@123"
+    },
+    {
+      "id": "aaba",
+      "email": "mansi@gmail.com",
+      "password": "mansi@123"
+    },
+    {
+      "id": "795a",
+      "email": "Shivam@gmail.com",
+      "password": "Shivam@123"
     }
   ],
   "catalogs": [
